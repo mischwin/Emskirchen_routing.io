@@ -2,8 +2,8 @@ import geopandas as gpd
 import folium
 
 
-supermarkt_gpkg = "D:/ZZ_Michael/_Diverses/geodata/supermarkt_15min.gpkg"
-isochronen_shp = "D:/ZZ_Michael/_Diverses/geodata/emskirchen_isochrones_auto.shp"
+supermarkt_gpkg = ".../geodata/supermarkt_15min.gpkg"
+isochronen_shp = ".../geodata/emskirchen_isochrones_auto.shp"
 
 # supermarkt
 supermarkt_gdf = gpd.read_file(supermarkt_gpkg).to_crs(epsg=4326)
